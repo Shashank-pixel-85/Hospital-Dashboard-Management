@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root { font-family: Inter, system-ui, sans-serif; color-scheme: light; }
+.dark { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: #f8fafc; color: #0f172a; }
+.dark body { background: #0b1220; color: #e5e7eb; }
+button, input, select, textarea { font: inherit; }
+button:disabled { cursor: not-allowed; opacity: .6; }
+
+html, body, #root { min-height: 100%; }
+
+body { transition: background-color .2s ease, color .2s ease; }
