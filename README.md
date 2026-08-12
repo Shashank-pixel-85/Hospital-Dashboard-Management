@@ -10,6 +10,7 @@ Frontend assessment project for the Hospital Management Dashboard.
 - Recharts
 - React Hook Form + Zod
 - React Hot Toast
+- Lucide React
 
 ## Included
 - Authentication: Login, Forgot Password, Reset Password
@@ -51,11 +52,19 @@ The Vite app can be deployed to Vercel or Netlify. Use the default Vite build co
 ```text
 src/
   components/
+    common.jsx
+    DataTable.jsx
+    EntityPage.jsx
+    Layout.jsx
   pages/
+    Auth.jsx
+    Dashboard.jsx
+    Management.jsx
+    Other.jsx
   store/
-  types.ts
-  App.tsx
-  main.tsx
+    store.js
+  App.jsx
+  main.jsx
   index.css
 ```
 
